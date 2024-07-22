@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@media (min-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  font-size: 19px;
+  background-color: #f7f7f2;
+  color: #644536;
+}
+
+h1 {
+  color: #576157;
+  font-size: 32px;
+}
+
+h2 {
+  color: #A8DCA8;
+  font-size: 25px;
+  text-decoration-line: underline;
+}
+
+.card {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+div {
+
+}
+
+img {
+  width: 150px;
+
+  border: 3px solid #576157;
+  border-radius: 10%;
+}
+
+.internet-link {
+  text-decoration: none;
+  background-color: #93CC93;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 0 16px rgba(0,0,0,0.1);
+  transition: 0.3s;
+ }
+
+a.internet-link:hover {
+  background-color: #A8DCA8;
+  color: rgb(180, 29, 29);
+}
+
+#section1 {
+   text-align: center;
+   font-weight: 550;
+   padding-bottom: 40px;
+ }
+
+#section2 {
+  width: 650px;
+
+  border: 3px solid #576157;
+ }
+
+ #bold_idea {
+   font-weight: 650;
+   font-family: "Space Mono";
+   font-size: 22px;
+ }
+
+ul li {
+  font-style: italic;
+ }
+
+li {
+  list-style: none;
+  padding-left: 20px;
+}
